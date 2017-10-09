@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4788;
+		nextID=4790;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1334;
+		nextID=1355;
 	};
 	class Camera
 	{
-		pos[]={2868.2935,252.9048,1630.7393};
-		dir[]={-0.81613064,-0.17138436,-0.55207747};
-		up[]={-0.14206959,0.98515314,-0.09610144};
-		aside[]={-0.5603683,-1.0551885e-006,0.82839853};
+		pos[]={1795.5066,17.043411,1114.0938};
+		dir[]={0.91246748,-0.047378443,0.40668717};
+		up[]={0.043422442,0.99883491,0.019351525};
+		aside[]={0.40714559,-9.9051977e-007,-0.91350299};
 	};
 };
 binarizationWanted=0;
@@ -786,7 +786,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=420;
+		items=418;
 		class Item0
 		{
 			dataType="Marker";
@@ -42151,23 +42151,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1790.4022,2.7934742,1079.9933};
-				angles[]={0.058599081,0,6.2245865};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4725;
-			type="HeliH";
-			atlOffset=1.9550323e-005;
-		};
-		class Item413
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={1815.8794,1.6410838,1066.0535};
 				angles[]={6.2805333,0,6.2698536};
 			};
@@ -42180,13 +42163,13 @@ class Mission
 			type="HeliH";
 			atlOffset=8.3446503e-007;
 		};
-		class Item414
+		class Item413
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1762.7378,5.801023,1063.0564};
-				angles[]={0.16644555,0,6.1349478};
+				position[]={1790.2806,2.8116763,1079.8042};
+				angles[]={0.058599081,0,6.2245865};
 			};
 			side="Empty";
 			flags=4;
@@ -42195,9 +42178,8 @@ class Mission
 			};
 			id=4727;
 			type="HeliH";
-			atlOffset=3.6239624e-005;
 		};
-		class Item415
+		class Item414
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42215,7 +42197,7 @@ class Mission
 			type="Land_Medevac_house_V1_F";
 			atlOffset=2.3841858e-007;
 		};
-		class Item416
+		class Item415
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -42419,24 +42401,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item417
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1791.6208,4.3746681,1080.8414};
-				angles[]={0.18969145,0,6.2245865};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=4748;
-			type="LOP_PMC_MH9";
-			atlOffset=2.9325485e-005;
-		};
-		class Item418
+		class Item416
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42453,7 +42418,7 @@ class Mission
 			type="LOP_PMC_MH9";
 			atlOffset=0.00042867661;
 		};
-		class Item419
+		class Item417
 		{
 			dataType="Object";
 			class PositionInfo
@@ -42475,11 +42440,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=6;
+			nextID=5;
 		};
 		class Links
 		{
-			items=6;
+			items=5;
 			class Item0
 			{
 				linkID=0;
@@ -42513,7 +42478,7 @@ class Mission
 			class Item3
 			{
 				linkID=3;
-				item0=4748;
+				item0=4749;
 				item1=4739;
 				class CustomData
 				{
@@ -42523,16 +42488,6 @@ class Mission
 			class Item4
 			{
 				linkID=4;
-				item0=4749;
-				item1=4739;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item5
-			{
-				linkID=5;
 				item0=4750;
 				item1=4739;
 				class CustomData
