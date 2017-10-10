@@ -1,6 +1,3 @@
-null = [slick1] execVM "scripts\heloGoTo\heloGoTo_init.sqf";
-commandant setVariable ["NORRN_taxiHeli", slick1, true];
-
 [] execVM "fn_advancedSlingLoadingInit.sqf";
 
 enableSaving [ false, false ];
