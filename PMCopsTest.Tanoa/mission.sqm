@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=5017;
+		nextID=5209;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1378;
+		nextID=1424;
 	};
 	class Camera
 	{
-		pos[]={5466.29,37.558113,14668.453};
-		dir[]={-0.66886497,-0.74332076,0.010237319};
-		up[]={-0.74323505,0.6689347,0.011375695};
-		aside[]={0.015303152,-1.6440754e-007,0.99988812};
+		pos[]={1862.0602,18.153578,1058.7957};
+		dir[]={-0.98289096,-0.18421662,0.0055093723};
+		up[]={-0.18423106,0.98287839,0.0010325183};
+		aside[]={0.005604431,-8.9731202e-008,1.0000043};
 	};
 };
 binarizationWanted=0;
@@ -26768,11 +26768,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={1002.4703,-0.74037933,655.83185};
+				position[]={1002.47,-0.74055099,655.83197};
 			};
 			id=4533;
 			type="ace_weather_ModuleSettings";
-			atlOffset=57.901127;
+			atlOffset=57.901005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26790,7 +26790,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -26828,7 +26828,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -26847,7 +26847,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -26866,7 +26866,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -26885,7 +26885,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
