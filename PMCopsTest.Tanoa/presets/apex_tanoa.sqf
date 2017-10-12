@@ -96,6 +96,7 @@ heavy_vehicles = [
 	["I_MBT_03_cannon_F",500,300,200],									//MBT-52 Kuma
 	["rhsusf_m1a1aim_tuski_wd",500,350,225],							//M1A1SA (Tusk I)
 	["B_T_MBT_01_TUSK_F",600,350,225],									//M2A4 Slammer UP
+	["B_T_MBT_01_arty_F",600,1250,300],									//M4 Scorcher
 	["rhsusf_m1a2sep1tuskiiwd_usarmy",600,400,250],						//M1A2SEPv1 (Tusk II)
 	["BWA3_Leopard2A6M_Fleck",600,400,250]								//MBT Leopard 2A6M
 ];
@@ -536,6 +537,7 @@ civilian_vehicles = [
 elite_vehicles = [
 	"rhsusf_mkvsoc",													//Mk.V SOCOM
 	"rhsusf_m1a1aim_tuski_wd",											//M1A1SA (Tusk I)
+	"B_T_MBT_01_arty_F",												//M4 Scorcher
 	"B_T_MBT_01_TUSK_F",												//M2A4 Slammer UP
 	"rhsusf_m1a2sep1tuskiiwd_usarmy",									//M1A2SEPv1 (Tusk II)
 	"BWA3_Leopard2A6M_Fleck",											//MBT Leopard 2A6M
