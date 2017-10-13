@@ -5,4 +5,4 @@ GREUH_allow_viewdistance = false;
 GREUH_allow_worldquality = false; 
 
 // Permettre aux joueurs de modifier leurs escouades
-GREUH_allow_customsquads = true;
+GREUH_allow_customsquads = false;
