@@ -13,7 +13,7 @@ _undercoverUnitSide = west;             //What side is/are the undercover unit(s
 //-------------------------General Settings-------------------------
 
 _debug = false;                         //Set to true for debug hints
-_hints = true;                          //Hints show changes of state etc
+_hints = false;                          //Hints show changes of state etc
 _fullAIfunctionality = true;            //Enable all checks on AI (may degrade performace very slightly for large groups, 15+)
 
 _racism = true;                         //Enemies will notice if you aren't the race of the faction you're pretending to be (making you easier to detect if nothing is covering your face)
@@ -21,7 +21,7 @@ _racProfFacCiv = 1;                     //(Number) Multiplies the effect of raci
 _racProfFacEny = 1;                     //(Number) Multiplies the effect of racial profiling. Lower this number to simulate more multicultural enemy forces
 
 _regEnySide = east;                     //Units of this side will be classed as regular enemies (Side: can be east, west, independent) - if you don't need this, comment the line out (i.e. put // before _regEnySide, as in //_regEnySide = east;).
-_regBarbaric = false;                   //(Bool - true or false) Will this side lash out on civilians if it takes casualties and doesn't know the attacker?
+_regBarbaric = true;                   //(Bool - true or false) Will this side lash out on civilians if it takes casualties and doesn't know the attacker?
 _regDetectRadius = 15;                  //Default detection radius for regular troops (this will expand and contract based on weather, time of day, and how the undercover unit is acting - civilians within this radius will be under much more scrutinty)
 
 _asymEnySide = independent;             //Units of this side will be classed as asymetric enemies (Side: can be east, west, independent) - if you don't need this, comment the line out (i.e. put // before _asymEnySide, as in //_asymEnySide = east;).

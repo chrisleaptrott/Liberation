@@ -149,6 +149,7 @@ static_vehicles = [
 	["B_HMG_01_high_F",25,40,0],										//Mk30 HMG .50 (Raised)
 	["RHS_TOW_TriPod_WD",50,100,0],										//TOW Launcher (AT)
 	["RHS_Stinger_AA_pod_WD",50,100,0],									//AA launcher (AA)
+	["B_Mortar_01_weapon_F",20,150,0],
 	["B_T_Mortar_01_F",80,150,0]										//Mk6 Mortar
 ];
 
@@ -222,6 +223,25 @@ buildings = [
 	["Land_Sign_WarningMilAreaSmall_F",0,0,0],
 	["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
 	["Land_Razorwire_F",0,0,0],
+	["Land_Sink_F",0,0,0],
+	["Land_Campfire_F",0,0,0],
+	["Land_FieldToilet_F",0,0,0],
+	["RoadCone_F",0,0,0],
+	["RoadCone_L_F",0,0,0],
+	["RoadBarrier_F",0,0,0],
+	["RoadBarrier_small_F",0,0,0],
+	["Land_ToolTrolley_02_F",0,0,0],
+	["Land_EngineCrane_01_F",0,0,0],
+	["Land_Football_01_F",0,0,0],
+	["Land_Basketball_01_F",0,0,0],
+	["Land_SatelliteAntenna_01_F",0,0,0],
+	["Land_TripodScreen_01_dual_v1_F",0,0,0],
+	["Land_TripodScreen_01_dual_v2_F",0,0,0],
+	["Land_TripodScreen_01_large_F",0,0,0],
+	["Land_LampAirport_F",0,0,0],
+	["Land_LampHalogen_F",0,0,0],
+	["Land_LampStreet_F",0,0,0],
+	["Land_BC_Basket_F",0,0,0],
 	["Target_F",0,0,0],
 	["cwa_CampEast",0,0,0],
 	["Land_ClutterCutter_large_F",0,0,0]
@@ -239,9 +259,6 @@ support_vehicles = [
 	[KP_liberation_heli_slot_building,250,0,0],
 	[KP_liberation_plane_slot_building,500,0,0],
 	["ACE_medicalSupplyCrate_advanced",50,0,0],
-	["ACE_Box_82mm_Mo_HE",50,40,0],
-	["ACE_Box_82mm_Mo_Smoke",50,10,0],
-	["ACE_Box_82mm_Mo_Illum",50,10,0],
 	["Box_NATO_AmmoVeh_F",0,0,0],										//Empty Supply box
 	["B_T_APC_Tracked_01_CRV_F",500,250,350],							//CRV-6e Bobcat
 	["B_T_Truck_01_Repair_F",325,0,75],									//HEMTT Repair
