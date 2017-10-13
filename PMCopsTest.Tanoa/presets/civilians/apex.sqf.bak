@@ -66,6 +66,7 @@ civilian_vehicles = [
 	"LOP_AFR_Civ_UAZ",
 	"RDS_MMT_Civ_01",
 	"RDS_MMT_Civ_01",
-	"RDS_S1203_Civ_02",	
+	"RDS_S1203_Civ_02",
+	"C_Truck_02_box_F",	
 	"C_Truck_02_box_F"
 ];
