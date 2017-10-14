@@ -81,6 +81,8 @@ light_vehicles = [
 	["BWA3_Eagle_Fleck",100,0,50],										//Eagle IV
 	["BWA3_Eagle_FLW100_Fleck",100,100,50],								//Eagle IV (FLW 100)
 	["rhsusf_M1230a1_usarmy_wd",120,0,60],								//M1230A1 (MEDEVAC)
+	["C_Truck_02_transport_F",125,0,75],								//CUSTOM ADDITION
+	["C_Truck_02_covered_F",125,0,75],									//CUSTOM ADDITION
 	["B_T_Truck_01_transport_F",125,0,75],								//HEMTT Transport
 	["B_T_Truck_01_covered_F",125,0,75],								//HEMTT Transport (Covered)
 	["rhsusf_M1083A1P2_wd_fmtv_usarmy",125,0,75],						//M1083A1P2 (covered infantry truck)
