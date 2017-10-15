@@ -1,5 +1,6 @@
 [] execVM "fn_advancedSlingLoadingInit.sqf";
 [] execVM "fn_advancedTowingInit.sqf";
+
 enableSaving [ false, false ];
 
 if (isDedicated) then {debug_source = "Server";} else {debug_source = name player;};
@@ -13,6 +14,7 @@ if (isDedicated) then {debug_source = "Server";} else {debug_source = name playe
 [] execVM "GREUH\scripts\GREUH_activate.sqf";
 
 [] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
+[] spawn compileFinal preprocessFileLineNumbers "setRandomWeather.sqf";
 
 if (isServer) then {
 	[] call compileFinal preprocessFileLineNumbers "scripts\server\init_server.sqf";
