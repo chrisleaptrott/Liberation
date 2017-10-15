@@ -94,6 +94,7 @@ light_vehicles = [
 	["B_T_Boat_Transport_01_F",100,0,25],								//Assault Boat
 	["B_T_Boat_Armed_01_minigun_F",200,80,75],							//Speedboat Minigun
 	["rhsusf_mkvsoc",250,200,100],										//Mk.V SOCOM
+	["Portable_Boat_boat",110,0,25],
 	["B_SDV_01_F",150,0,50]												//SDV
 ];
 
