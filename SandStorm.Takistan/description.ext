@@ -7,7 +7,7 @@ enableDebugConsole = 1;
 allowFunctionsLog = 0;
 
 loadScreen="res\liberation.jpg";
-onLoadMission = "Tactical Solutions";
+onLoadMission = "Bring Freedom!";
 author = "Obi and Highway";
 onLoadName = $STR_MISSION_TITLE;
 
