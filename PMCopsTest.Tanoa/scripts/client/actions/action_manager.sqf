@@ -100,7 +100,7 @@ while {true} do {
 			_idact_squad = -1;
 		};
 	};
-
+/*
 	if ((_fobdistance < _distredeploy || count KP_liberation_neararsenal != 0 || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && alive player && vehicle player == player) then {
 		if (_idact_arsenal == -1) then {
 			_idact_arsenal = player addAction ["<t color='#FFFF00'>" + localize "STR_ARSENAL_ACTION" + "</t> <img size='2' image='res\ui_arsenal.paa'/>","scripts\client\actions\open_arsenal.sqf","",-980,true,true,"","build_confirmed == 0"];
@@ -111,7 +111,7 @@ while {true} do {
 			_idact_arsenal = -1;
 		};
 	};
-
+*/
 	if (_fobdistance < _distfob && alive player && vehicle player == player && (([ player, 3] call F_fetchPermission) || (player == ([] call F_getCommander) || [] call F_isAdmin))) then {
 		if (_idact_build == -1) then {
 			_idact_build = player addAction ["<t color='#FFFF00'>" + localize "STR_BUILD_ACTION" + "</t> <img size='2' image='res\ui_build.paa'/>","scripts\client\build\open_build_menu.sqf","",-985,false,true,"","build_confirmed == 0"];
@@ -227,7 +227,7 @@ while {true} do {
 		};
 	};
 
-	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [] call F_isAdmin) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
+	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [player] call F_isKeystone) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
 		if (_idact_production == -1) then {
 			_idact_production = player addAction ["<t color='#FF8000'>" + localize "STR_PRODUCTION_ACTION" + "</t>","scripts\client\commander\open_production.sqf","",-998,false,true,"","build_confirmed == 0"];
 		};
