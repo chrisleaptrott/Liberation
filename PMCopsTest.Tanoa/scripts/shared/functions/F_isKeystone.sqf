@@ -16,8 +16,8 @@
 params ["_unit"];
 private _retVal = false;
 
-if (!isNil "grp_keystone"){
-	_retVal = _unit in grp_keystone;
+if (!isNil "grp_keystone") then {
+	_retVal = _unit in units grp_keystone;
 }
 
 _retVal
