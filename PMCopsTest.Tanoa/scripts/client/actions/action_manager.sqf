@@ -78,7 +78,7 @@ while {true} do {
 			_idact_halo = -1;
 		};
 	};
-
+/*
 	if ((_fobdistance < _distredeploy || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && alive player && vehicle player == player) then {
 		if (_idact_redeploy == -1) then {
 			_idact_redeploy = player addAction ["<t color='#80FF80'>" + localize "STR_DEPLOY_ACTION" + "</t> <img size='2' image='res\ui_redeploy.paa'/>","scripts\client\actions\redeploy.sqf","",-750,false,true,"","build_confirmed == 0"];
@@ -89,7 +89,7 @@ while {true} do {
 			_idact_redeploy = -1;
 		};
 	};
-
+*/
 	if ((leader group player == player) && (count units group player > 1) && alive player && vehicle player == player) then {
 		if (_idact_squad == -1) then {
 			_idact_squad = player addAction ["<t color='#80FF80'>" + localize "STR_SQUAD_MANAGEMENT_ACTION" + "</t> <img size='2' image='\a3\Ui_F_Curator\Data\Displays\RscDisplayCurator\modeGroups_ca.paa'/>","scripts\client\ui\squad_management.sqf","",-760,false,true,"","build_confirmed == 0"];
@@ -227,7 +227,7 @@ while {true} do {
 		};
 	};
 
-	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [player] call F_isKeystone) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
+	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [] call F_isAdmin) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
 		if (_idact_production == -1) then {
 			_idact_production = player addAction ["<t color='#FF8000'>" + localize "STR_PRODUCTION_ACTION" + "</t>","scripts\client\commander\open_production.sqf","",-998,false,true,"","build_confirmed == 0"];
 		};

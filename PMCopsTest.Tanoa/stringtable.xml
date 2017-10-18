@@ -17,6 +17,9 @@
 			<Chinesesimp>KP Liberation v0.96</Chinesesimp>
 			<Turkish>KP Liberation v0.96</Turkish>
 		</Key>
+		<Key ID="STR_OPERATION_ON">
+			<Original>Operation On</Original>
+		</key>
 		<Key ID="STR_MISSION_VERSION">
 			<Original>v0.96</Original>
 			<German>v0.96</German>
