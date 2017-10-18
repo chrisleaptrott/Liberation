@@ -14,10 +14,6 @@
  */
 
 params ["_unit"];
-private _retVal = false;
-
-if (!isNil "grp_keystone") then {
-	_retVal = _unit in units grp_keystone;
-};
+private _retVal = _unit getVariable ["isKeystone",false];
 
 _retVal
