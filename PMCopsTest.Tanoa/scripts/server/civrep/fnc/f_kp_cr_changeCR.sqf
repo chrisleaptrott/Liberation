@@ -17,7 +17,7 @@ if (KP_liberation_civ_rep <= -40) then {
 	GRLIB_side_resistance setFriend [GRLIB_side_friendly, 0];
 	GRLIB_side_friendly setFriend [GRLIB_side_resistance, 0];
 };
-if (KP_liberation_civ_rep > -25 && KP_liberation_civ_rep < 25) then {
+if (KP_liberation_civ_rep > -40 && KP_liberation_civ_rep < 25) then {
 	GRLIB_side_resistance setFriend [GRLIB_side_enemy, 1];
 	GRLIB_side_enemy setFriend [GRLIB_side_resistance, 1];
 	GRLIB_side_resistance setFriend [GRLIB_side_friendly, 1];
