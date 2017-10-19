@@ -56,7 +56,7 @@ while {true} do {
 			deletevehicle (_nearfobbox select 0);
 		};
 	};
-
+/*
 	if ( (player distance startbase) < 200 && alive player && vehicle player == player ) then {
 		if (_idact_tutorial == -1) then {
 			_idact_tutorial = player addAction ["<t color='#80FF80'>" + localize "STR_TUTO_ACTION" + "</t>","howtoplay = 1","",-740,false,true,"",""];
@@ -67,7 +67,7 @@ while {true} do {
 			_idact_tutorial = -1;
 		};
 	};
-
+*/
 	if ((_fobdistance < _distredeploy || (player distance startbase) < 200) && alive player && vehicle player == player && GRLIB_halo_param > 0) then {
 		if (_idact_halo == -1) then {
 			_idact_halo = player addAction ["<t color='#80FF80'>" + localize "STR_HALO_ACTION" + "</t> <img size='2' image='res\ui_redeploy.paa'/>","scripts\client\spawn\do_halo.sqf","",-749,false,true,"","build_confirmed == 0"];
@@ -227,7 +227,7 @@ while {true} do {
 		};
 	};
 
-	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [player] call F_isKeystone) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
+	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [] call F_isAdmin) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
 		if (_idact_production == -1) then {
 			_idact_production = player addAction ["<t color='#FF8000'>" + localize "STR_PRODUCTION_ACTION" + "</t>","scripts\client\commander\open_production.sqf","",-998,false,true,"","build_confirmed == 0"];
 		};
@@ -239,7 +239,7 @@ while {true} do {
 	};
 
 	if (KP_liberation_ailogistics) then {
-		if ((_fobdistance < _distfob) && (player == ([] call F_getCommander) || [player] call F_isKeystone) && alive player && vehicle player == player && (((count GRLIB_all_fobs) + (count KP_liberation_production)) > 1)) then {
+		if ((_fobdistance < _distfob) && (player == ([] call F_getCommander) || [] call F_isAdmin) && alive player && vehicle player == player && (((count GRLIB_all_fobs) + (count KP_liberation_production)) > 1)) then {
 			if (_idact_logistic == -1) then {
 				_idact_logistic = player addAction ["<t color='#FF8000'>" + localize "STR_LOGISTIC_ACTION" + "</t>","scripts\client\commander\open_logistic.sqf","",-999,false,true,"","build_confirmed == 0"];
 			};

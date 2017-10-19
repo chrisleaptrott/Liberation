@@ -19,7 +19,14 @@ KP_liberation_ace_crates = [
 	"ACE_Box_82mm_Mo_HE",
 	"ACE_Box_82mm_Mo_Smoke",
 	"ACE_Box_82mm_Mo_Illum",
-	"ACE_medicalSupplyCrate_advanced"
+	"ACE_medicalSupplyCrate_advanced",
+	"Box_NATO_AmmoOrd_F",
+	"rhsusf_mags_crate",
+	"rhsusf_gear_crate",
+	"rhsusf_launcher_crate",
+	"rhsusf_weapon_crate",
+	"Box_NATO_Grenades_F",
+	"ACE_Box_Misc"
 ];
 
 /* - Custom unit and arsenal preset settings. 
