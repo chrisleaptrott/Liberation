@@ -2971,16 +2971,16 @@
 			&lt;t size='1.3' color='#ffa000'&gt;CONVOY HIJACK&lt;/t&gt;
 			&lt;br/&gt;&lt;br/&gt;
 			&lt;t size='1'&gt;
-			OPFOR forces use road convoys to resupply their defensive positions. Intercepting one of these convoys would effectively disrupt their supply lines, and we could use the occasion to retrieve an hefty amount of ammunition.&lt;/t&gt;
+			OPFOR has taken supplies intended for Cvilians. Use this opportunity to disrupt their Convoy and gain some favor with the Civilian Population who are calling out for revenge.&lt;/t&gt;
 			&lt;br/&gt;&lt;br/&gt;
 			&lt;t size='1'&gt;
-			Your mission is to stop the OPFOR convoy by any means necessary. You can destroy it, or hijack it to retrieve all the ammunition you can grab. The target will be spotted on your map.&lt;/t&gt;
+			Your mission is to stop the OPFOR convoy by any means necessary. You can destroy it, or hijack it to retrieve all the supplies you can grab. The target will be spotted on your map.&lt;/t&gt;
 			&lt;br/&gt;&lt;br/&gt;
 			&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;
 			&lt;br/&gt;
-			&lt;t size='1.15' color='#ffa000'&gt;Reward: OPFOR alert level reduced by 15%&lt;/t&gt;
+			&lt;t size='1.15' color='#ffa000'&gt;Reward: Civilian Reputation gain by 7&lt;/t&gt;
 			&lt;br/&gt;
-			&lt;t size='1.15' color='#ffa000'&gt;Side reward: All the ammunition you can retrieve.&lt;/t&gt;
+			&lt;t size='1.15' color='#ffa000'&gt;Side reward: All the supplies you can retrieve.&lt;/t&gt;
 			&lt;br/&gt;&lt;br/&gt;
 			&lt;t size='10'&gt;&lt;img image='res\secondary\convoy_obj.jpg'/&gt;&lt;/t&gt;
 			</Original>
