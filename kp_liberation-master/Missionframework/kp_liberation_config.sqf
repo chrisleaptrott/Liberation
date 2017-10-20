@@ -115,6 +115,7 @@ KP_liberation_cr_resistance_penalty = 3;																		// Civil Reputation pe
 KP_liberation_cr_sector_gain = 5;																				// Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 35;																			// Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 2;																				// Civil Reputation gain for providing medical assistance for wounded civilians.
+KP_liberation_cr_opforconvoy_gain = 7;																			// CIV reputation gain for doing the convoy secondary mission.
 
 KP_liberation_civinfo_min = 5400;																				// Civil Informant minimum spawn time. (seconds)
 KP_liberation_civinfo_max = 10800;																				// Civil Informant maximum spawn time. (seconds)
