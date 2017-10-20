@@ -31,7 +31,7 @@ private _boxes_loaded = 0;
 while { _boxes_loaded < _boxes_amount } do {
 	_boxes_loaded = _boxes_loaded + 1;
 	sleep 0.5;
-	private _next_box = [KP_liberation_ammo_crate, 100, _spawnpos getPos [15, 135]] call F_createCrate;
+	private _next_box = [KP_liberation_supply_crate, 100, _spawnpos getPos [15, 135]] call F_createCrate;
 	sleep 0.5;
 	[_next_box, 50] call _load_box_fnc;
 };
@@ -154,7 +154,7 @@ sleep 20;
 deleteMarker _convoy_marker;
 { deleteMarker _x } foreach [_convoy_marker_wp1, _convoy_marker_wp2, _convoy_marker_wp3 ];
 
-combat_readiness = round (combat_readiness * 0.85);
+[KP_liberation_cr_opforconvoy_gain] call F_cr_changeCR;
 stats_secondary_objectives = stats_secondary_objectives + 1;
 [5] remoteExec ["remote_call_intel"];
 GRLIB_secondary_in_progress = -1; publicVariable "GRLIB_secondary_in_progress";

@@ -290,6 +290,13 @@ support_vehicles = [
 	[KP_liberation_heli_slot_building,250,0,0],
 	[KP_liberation_plane_slot_building,500,0,0],
 	["ACE_medicalSupplyCrate_advanced",50,0,0],
+	["Box_NATO_AmmoOrd_F",20,20,0],
+	["rhsusf_mags_crate",20,20,0],
+	["rhsusf_gear_crate",20,20,0],
+	["rhsusf_launcher_crate",20,20,0],
+	["rhsusf_weapon_crate",20,20,0],
+	["ACE_Box_Misc",20,20,0],
+	["Box_NATO_Grenades_F",20,20,0],
 	["ACE_Wheel",10,0,0],
 	["ACE_Track",10,0,0],
 	["B_T_APC_Tracked_01_CRV_F",500,250,350],							//CRV-6e Bobcat

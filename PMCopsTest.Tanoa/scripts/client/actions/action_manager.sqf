@@ -68,7 +68,8 @@ while {true} do {
 		};
 	};
 */
-	if ((_fobdistance < _distredeploy || (player distance startbase) < 200) && alive player && vehicle player == player && GRLIB_halo_param > 0) then {
+/*
+	if ((_fobdistance < _distredeploy || (player distance startbase) < 200) && (player == [player] call F_isShadow) && alive player && vehicle player == player && GRLIB_halo_param > 0) then {
 		if (_idact_halo == -1) then {
 			_idact_halo = player addAction ["<t color='#80FF80'>" + localize "STR_HALO_ACTION" + "</t> <img size='2' image='res\ui_redeploy.paa'/>","scripts\client\spawn\do_halo.sqf","",-749,false,true,"","build_confirmed == 0"];
 		};
@@ -78,8 +79,8 @@ while {true} do {
 			_idact_halo = -1;
 		};
 	};
-/*
-	if ((_fobdistance < _distredeploy || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && alive player && vehicle player == player) then {
+*/
+	if ((_fobdistance < _distredeploy || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && (player == ([] call F_getCommander) || [player] call F_isShadow) && alive player && vehicle player == player) then {
 		if (_idact_redeploy == -1) then {
 			_idact_redeploy = player addAction ["<t color='#80FF80'>" + localize "STR_DEPLOY_ACTION" + "</t> <img size='2' image='res\ui_redeploy.paa'/>","scripts\client\actions\redeploy.sqf","",-750,false,true,"","build_confirmed == 0"];
 		};
@@ -89,7 +90,7 @@ while {true} do {
 			_idact_redeploy = -1;
 		};
 	};
-*/
+
 /*
 	if ((leader group player == player) && (count units group player > 1) && alive player && vehicle player == player) then {
 		if (_idact_squad == -1) then {
@@ -102,8 +103,8 @@ while {true} do {
 		};
 	};
 	*/
-/*
-	if ((_fobdistance < _distredeploy || count KP_liberation_neararsenal != 0 || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && alive player && vehicle player == player) then {
+
+	if ((_fobdistance < _distredeploy || count KP_liberation_neararsenal != 0 || count KP_liberation_nearspawn != 0 || (player distance startbase) < 200) && (player == ([] call F_getCommander) || [player] call F_isShadow) && alive player && vehicle player == player) then {
 		if (_idact_arsenal == -1) then {
 			_idact_arsenal = player addAction ["<t color='#FFFF00'>" + localize "STR_ARSENAL_ACTION" + "</t> <img size='2' image='res\ui_arsenal.paa'/>","scripts\client\actions\open_arsenal.sqf","",-980,true,true,"","build_confirmed == 0"];
 		};
@@ -113,7 +114,7 @@ while {true} do {
 			_idact_arsenal = -1;
 		};
 	};
-*/
+
 	if (_fobdistance < _distfob && alive player && vehicle player == player && (([ player, 3] call F_fetchPermission) || (player == ([] call F_getCommander) || [] call F_isAdmin))) then {
 		if (_idact_build == -1) then {
 			_idact_build = player addAction ["<t color='#FFFF00'>" + localize "STR_BUILD_ACTION" + "</t> <img size='2' image='res\ui_build.paa'/>","scripts\client\build\open_build_menu.sqf","",-985,false,true,"","build_confirmed == 0"];
@@ -147,7 +148,7 @@ while {true} do {
 		};
 	};
 
-	if ((count GRLIB_all_fobs > 0) && (GRLIB_endgame == 0) && (_fobdistance < _distredeploy || (player distance startbase) < 200) && alive player && vehicle player == player && (([player, 5] call F_fetchPermission) || (player == ([] call F_getCommander) || [] call F_isAdmin))) then {
+	if ((count GRLIB_all_fobs > 0) && (GRLIB_endgame == 0) && (_fobdistance < _distredeploy || (player distance startbase) < 200) && alive player && vehicle player == player && (player == ([] call F_getCommander) || [player] call F_isShadow)) then {
 		if (_idact_secondary == -1) then {
 			_idact_secondary = player addAction ["<t color='#FFFF00'>" + localize "STR_SECONDARY_OBJECTIVES" + "</t>","scripts\client\ui\secondary_ui.sqf","",-992,false,true,"","build_confirmed == 0"];
 		};
@@ -229,7 +230,7 @@ while {true} do {
 		};
 	};
 
-	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [] call F_isAdmin) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
+	if (((_fobdistance < _distfob) || ((count _prod_sector) == 12)) && (player == ([] call F_getCommander) || [player] call F_isKeystone) && alive player && vehicle player == player && ((count KP_liberation_production) > 0)) then {
 		if (_idact_production == -1) then {
 			_idact_production = player addAction ["<t color='#FF8000'>" + localize "STR_PRODUCTION_ACTION" + "</t>","scripts\client\commander\open_production.sqf","",-998,false,true,"","build_confirmed == 0"];
 		};
@@ -241,7 +242,7 @@ while {true} do {
 	};
 
 	if (KP_liberation_ailogistics) then {
-		if ((_fobdistance < _distfob) && (player == ([] call F_getCommander) || [] call F_isAdmin) && alive player && vehicle player == player && (((count GRLIB_all_fobs) + (count KP_liberation_production)) > 1)) then {
+		if ((_fobdistance < _distfob) && (player == ([] call F_getCommander) || [player] call F_isKeystone) && alive player && vehicle player == player && (((count GRLIB_all_fobs) + (count KP_liberation_production)) > 1)) then {
 			if (_idact_logistic == -1) then {
 				_idact_logistic = player addAction ["<t color='#FF8000'>" + localize "STR_LOGISTIC_ACTION" + "</t>","scripts\client\commander\open_logistic.sqf","",-999,false,true,"","build_confirmed == 0"];
 			};

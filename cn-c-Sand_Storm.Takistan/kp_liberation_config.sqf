@@ -19,7 +19,14 @@ KP_liberation_ace_crates = [
 	"ACE_Box_82mm_Mo_HE",
 	"ACE_Box_82mm_Mo_Smoke",
 	"ACE_Box_82mm_Mo_Illum",
-	"ACE_medicalSupplyCrate_advanced"
+	"ACE_medicalSupplyCrate_advanced",
+	"Box_NATO_AmmoOrd_F",
+	"rhsusf_mags_crate",
+	"rhsusf_gear_crate",
+	"rhsusf_launcher_crate",
+	"rhsusf_weapon_crate",
+	"Box_NATO_Grenades_F",
+	"ACE_Box_Misc"
 ];
 
 /* - Custom unit and arsenal preset settings. 
@@ -108,13 +115,14 @@ GRLIB_sector_cap = 180								* GRLIB_unitcap;											// Cap for sector defen
 GRLIB_battlegroup_cap = 150							* GRLIB_unitcap;											// Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150								* GRLIB_unitcap;											// Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 5;																				// Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_kill_penalty = 4;																				// Civil Reputation penalty for killing a civilian.
 KP_liberation_cr_building_penalty = 3;																			// Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 2;																			// Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 3;																		// Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 5;																				// Civil Reputation gain for liberate a sector.
-KP_liberation_cr_wounded_chance = 35;																			// Chance (0-100) that there are wounded civilians right after capturing a sector.
-KP_liberation_cr_wounded_gain = 2;																				// Civil Reputation gain for providing medical assistance for wounded civilians.
+KP_liberation_cr_sector_gain = 8;																				// Civil Reputation gain for liberate a sector.
+KP_liberation_cr_wounded_chance = 60;																			// Chance (0-100) that there are wounded civilians right after capturing a sector.
+KP_liberation_cr_wounded_gain = 3;																				// Civil Reputation gain for providing medical assistance for wounded civilians.
+KP_liberation_cr_opforconvoy_gain = 7;
 
 KP_liberation_civinfo_min = 5400;																				// Civil Informant minimum spawn time. (seconds)
 KP_liberation_civinfo_max = 10800;																				// Civil Informant maximum spawn time. (seconds)
@@ -131,7 +139,7 @@ KP_liberation_resistance_tier2 = 30;																			// At which strength (0-1
 KP_liberation_resistance_tier3 = 70;																			// At which strength (0-100) the guerilla forces will be at tier 3?
 KP_liberation_resistance_at_chance = 20;																		// Chance that a guerilla unit has a RPG. (tier 2 and 3)
 KP_liberation_resistance_sector_chance = 35;																	// Chance that a guerilla squad will join an ongoing sector attack.
-KP_liberation_resistance_ambush_chance = 30;																	// Chance that some guerilla units will spawn in blufor sectors for an ambush, if reputation is low.
+KP_liberation_resistance_ambush_chance = 25;																	// Chance that some guerilla units will spawn in blufor sectors for an ambush, if reputation is low.
 
 /* - Default arsenal blacklist method.
 Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.	
