@@ -94,7 +94,7 @@ heavy_vehicles = [
 
 air_vehicles = [
 	["B_UAV_01_F",75,0,25],												//AR-2 Darter
-	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
+	//["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["RHS_MELB_MH6M",200,0,100],										//MH-6M Little Bird
 	["RHS_MELB_AH6M",200,200,100],										//AH-6M Pawnee
 	["RHS_UH1Y_UNARMED_d",225,0,125],									//UH-1Y (Unarmed)
@@ -107,19 +107,19 @@ air_vehicles = [
 	["RHS_CH_47F_10",275,80,175],										//CH-47 Chinook (Armed)
 	["rhsusf_CH53E_USMC_D",300,0,175],									//CH-53E Super Stallion
 	["B_UAV_02_dynamicLoadout_F",400,300,200],							//MQ-4A Greyhawk
-	["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
-	["B_UAV_05_F",500,500,200],											//UCAV Sentinel
-	["RHS_A10",1000,1000,400],											//A-10A (CAS)
-	["FIR_F15C",1250,1250,450],											//F-15C Eagle
-	["FIR_F15D",1250,1250,450],											//F-15D Eagle
-	["FIR_F15E",1250,1500,450],											//F-15E Strike Eagle
-	["JS_JC_FA18E",1500,1750,450],										//F/A-18 E Super Hornet
-	["JS_JC_FA18F",1500,1750,450],										//F/A-18 F Super Hornet
-	["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
-	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
-	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
-	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
-	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
+	//["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
+	//["B_UAV_05_F",500,500,200],											//UCAV Sentinel
+	["RHS_A10",1000,1000,400]											//A-10A (CAS)
+	//["FIR_F15C",1250,1250,450],											//F-15C Eagle
+	//["FIR_F15D",1250,1250,450],											//F-15D Eagle
+	//["FIR_F15E",1250,1500,450],											//F-15E Strike Eagle
+	//["JS_JC_FA18E",1500,1750,450],										//F/A-18 E Super Hornet
+	//["JS_JC_FA18F",1500,1750,450],										//F/A-18 F Super Hornet
+	//["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
+	//["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
+	//["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
+	//["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
+	//["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
 ];
 
 static_vehicles = [
@@ -364,15 +364,15 @@ elite_vehicles = [
 	"rhsusf_m109d_usarmy",												//M109A6
 	"RHS_AH64D",														//AH-64D (Multi-Role)
 	"B_UAV_02_dynamicLoadout_F",										//MQ-4A Greyhawk
-	"B_T_UAV_03_dynamicLoadout_F",										//MQ-12 Falcon
-	"B_UAV_05_F",														//UCAV Sentinel
-	"RHS_A10",															//A-10A (CAS)
-	"FIR_F15C",															//F-15C Eagle
-	"FIR_F15D",															//F-15D Eagle
-	"FIR_F15E",															//F-15E Strike Eagle
-	"JS_JC_FA18E",														//F/A-18 E Super Hornet
-	"JS_JC_FA18F",														//F/A-18 F Super Hornet
-	"B_Plane_Fighter_01_F",												//F/A-181 Black Wasp II
-	"B_Plane_Fighter_01_Stealth_F",										//F/A-181 Black Wasp II (Stealth)
-	"B_T_VTOL_01_armed_F"												//V-44 X Blackfish (Armed)
+	//"B_T_UAV_03_dynamicLoadout_F",										//MQ-12 Falcon
+	//"B_UAV_05_F",														//UCAV Sentinel
+	"RHS_A10"															//A-10A (CAS)
+	//"FIR_F15C",															//F-15C Eagle
+	//"FIR_F15D",															//F-15D Eagle
+	//"FIR_F15E",															//F-15E Strike Eagle
+	//"JS_JC_FA18E",														//F/A-18 E Super Hornet
+	//"JS_JC_FA18F",														//F/A-18 F Super Hornet
+	//"B_Plane_Fighter_01_F",												//F/A-181 Black Wasp II
+	//"B_Plane_Fighter_01_Stealth_F",										//F/A-181 Black Wasp II (Stealth)
+	//"B_T_VTOL_01_armed_F"												//V-44 X Blackfish (Armed)
 ];
