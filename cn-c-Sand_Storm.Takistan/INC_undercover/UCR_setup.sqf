@@ -32,7 +32,7 @@ _trespassMarkers = [];                  //Names of additional markers for areas 
 
 //-------------------------Civilian Disguise settings-------------------------
 
-_civFactions = ["CIV_F","CIV_F_TANOA"]; //Array of factions whose vests are safe for undercover units to wear
+_civFactions = ["CIV_F","LOP_TAK_Civ"]; //Array of factions whose vests are safe for undercover units to wear
 
 //(Array of classnames) Safe vests (on top of the specific factions above - useful if faction has randomisation script or to add items that are not used by the faction)
 _civilianVests = [];
@@ -54,7 +54,7 @@ _HMDallowed = false; //(Bool - true or false) Are HMDs (night vision goggles etc
 _noOffRoad = true; //Civilian vehicles driving more than 50 meters from the nearest road will be considered hostile
 
 //-------------------------Enemy Disguise settings-------------------------
-_incogFactions = ["OPF_F","OPF_T_F"]; //Array of enemy factions whose items and vehicles will allow the player to impersonate the enemy
+_incogFactions = ["LOP_TKA, LOP_AM_OPF"]; //Array of enemy factions whose items and vehicles will allow the player to impersonate the enemy
 
 //(Array of classnames) Safe vests (on top of the specific factions above - useful if faction has randomisation script or to add items that are not used by the faction)
 _incognitoVests = [];

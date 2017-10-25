@@ -18,6 +18,7 @@ joinUnassigned = 1;
 #include "ui\liberation_notifications.hpp"
 #include "ui\mission_params.hpp"
 
+
 class CfgDebriefing
 {
 	class End1
