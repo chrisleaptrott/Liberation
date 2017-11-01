@@ -49,6 +49,7 @@ militia_squad = [
 	"LOP_TKA_Infantry_Rifleman_2",										//Rifleman
 	"LOP_TKA_Infantry_Rifleman_2",										//Rifleman
 	"LOP_TKA_Infantry_Rifleman_3",										//Rifleman (AT)
+	"LOP_TKA_Infantry_Rifleman_3",										//Rifleman (AT)
 	"LOP_TKA_Infantry_MG",												//Autorifleman
 	"LOP_TKA_Infantry_Marksman",										//Marksman
 	"LOP_TKA_Infantry_Corpsman",										//Medic

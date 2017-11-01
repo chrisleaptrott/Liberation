@@ -19,16 +19,7 @@ joinUnassigned = 1;
 #include "ui\mission_params.hpp"
 
 
-class CfgDebriefing
-{
-	class End1
-	{
-		title =	$STR_SORRY;
-		subtitle = "";
-		description = $STR_COMMANDER_NOT_AUTHORIZED;
-		pictureBackground = "";
-	};
-};
+
 
 class Extended_Init_EventHandlers { 
 	class Man {
@@ -55,4 +46,40 @@ class CfgRemoteExec
        jip = 1;
        #include "INC_undercover\functionsWhitelist.hpp"
    };
+};
+
+
+class CfgSounds
+{
+	class AUR_Rappel_Loop
+	{
+		name = "AUR_Rappel_Loop";
+		sound[] = {"sounds\AUR_Rappel_Loop.ogg", db+5, 1};
+		titles[] = {0,""};
+	};
+	class AUR_Rappel_Start
+	{
+		name = "AUR_Rappel_Start";
+		sound[] = {"sounds\AUR_Rappel_Start.ogg", db+10, 1};
+		titles[] = {0,""};
+	};
+	class AUR_Rappel_End
+	{
+		name = "AUR_Rappel_End";
+		sound[] = {"sounds\AUR_Rappel_End.ogg", db+10, 1};
+		titles[] = {0,""};
+	};
+};
+#include "cfgAnimations.hpp"
+
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title =	$STR_SORRY;
+		subtitle = "";
+		description = $STR_COMMANDER_NOT_AUTHORIZED;
+		pictureBackground = "";
+	};
 };

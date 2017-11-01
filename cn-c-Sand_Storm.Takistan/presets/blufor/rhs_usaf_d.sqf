@@ -14,7 +14,7 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";							// This is the FOB as a conta
 FOB_truck_typename = "rhsusf_M1078A1P2_B_D_CP_fmtv_usarmy";				// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = "B_supplyCrate_F";									// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = "rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy";	// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
-huron_typename = "RHS_CH_47F";											// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
+huron_typename = "I_Heli_Transport_02_F";								// This is Spartan 01, a multipurpose mobile respawn as a helicopter. 																	Default is "B_Heli_Transport_03_unarmed_F".
 crewman_classname = "rhsusf_army_ocp_combatcrewman";					// This defines the crew for vehicles. 																									Default is "B_crew_F".
 pilot_classname = "rhsusf_army_ocp_helipilot";							// This defines the pilot for helicopters. 																								Default is "B_Helipilot_F".
 KP_liberation_little_bird_classname = "RHS_MELB_MH6M";					// These are the little birds which spawn on the Freedom or at Chimera base.															Default is "B_Heli_Light_01_F".
@@ -76,6 +76,8 @@ light_vehicles = [
 	["rhsusf_M1083A1P2_d_open_fmtv_usarmy",125,0,75],					//M1083A1P2 (open infantry truck)
 	["rhsusf_M977A4_BKIT_usarmy_d",125,0,75],							//M977A4 BKIT
 	["rhsusf_M977A4_BKIT_M2_usarmy_d",125,40,75],						//M977A4 BKIT (HMG)
+	["rhsusf_M1117_D",125,80,75],										//M1117
+	["I_MRAP_03_hmg_F",125,60,75],
 	["B_UGV_01_F",150,0,50],											//UGV Stomper
 	["B_UGV_01_rcws_F",150,40,50]										//UGV Stomper (RCWS)
 ];
@@ -84,12 +86,16 @@ heavy_vehicles = [
 	["rhsusf_m113d_usarmy",200,40,100],									//M113A3 (M2)
 	["rhsusf_m113d_usarmy_MK19",200,60,100],							//M113A3 (Mk19)
 	["rhsusf_m113d_usarmy_medical",200,0,100],							//M113A3 (Medical)
+	["O_APC_Wheeled_02_rcws_F",250,150,150],
 	["RHS_M2A2_BUSKI",300,200,150],										//M2A2ODS (Busk I)
 	["RHS_M2A3_BUSKIII",300,250,175],									//M2A3 (Busk III)
+	["B_APC_Wheeled_01_cannon_F",250,200,175],						//marshall
 	["RHS_M6",300,250,175],												//M6A2
 	["rhsusf_m1a1aim_tuski_d",400,350,225],								//M1A1SA (Tusk I)
 	["rhsusf_m1a2sep1tuskiid_usarmy",500,400,250],						//M1A2SEPv1 (Tusk II)
-	["rhsusf_m109d_usarmy",600,1250,300]								//M109A6
+	["rhsusf_m109d_usarmy",600,1250,300],								//M109A6
+	["I_MBT_03_cannon_F",600,400,300],
+	["B_MBT_01_TUSK_F",600,400,250]
 ];
 
 air_vehicles = [
@@ -106,6 +112,8 @@ air_vehicles = [
 	["RHS_UH60M_MEV2_d",300,0,150],										//UH-60M MEV2
 	["RHS_CH_47F_10",275,80,175],										//CH-47 Chinook (Armed)
 	["rhsusf_CH53E_USMC_D",300,0,175],									//CH-53E Super Stallion
+	["RHS_AH1Z",750,700,200],
+	["RHS_C130J",800,0,500],
 	["B_UAV_02_dynamicLoadout_F",400,300,200],							//MQ-4A Greyhawk
 	//["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
 	//["B_UAV_05_F",500,500,200],											//UCAV Sentinel
@@ -251,6 +259,7 @@ support_vehicles = [
 	["rhsusf_weapon_crate",20,20,0],
 	["ACE_Box_Misc",20,20,0],
 	["Box_NATO_Grenades_F",20,20,0],
+	["Box_NATO_Support_F",20,20,0],
 	["ACE_Box_82mm_Mo_HE",50,40,0],
 	["ACE_Box_82mm_Mo_Smoke",50,10,0],
 	["ACE_Box_82mm_Mo_Illum",50,10,0],
@@ -366,6 +375,12 @@ elite_vehicles = [
 	"B_UAV_02_dynamicLoadout_F",										//MQ-4A Greyhawk
 	//"B_T_UAV_03_dynamicLoadout_F",										//MQ-12 Falcon
 	//"B_UAV_05_F",														//UCAV Sentinel
+	"B_APC_Wheeled_01_cannon_F",
+	"B_MBT_01_TUSK_F",
+	"RHS_AH1Z",
+	"RHS_M2A3_BUSKIII",
+	"RHS_M2A3_BUSKI",
+	"RHS_M6",
 	"RHS_A10"															//A-10A (CAS)
 	//"FIR_F15C",															//F-15C Eagle
 	//"FIR_F15D",															//F-15D Eagle
