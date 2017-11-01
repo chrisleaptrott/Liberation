@@ -160,6 +160,7 @@ air_vehicles = [
 	["JS_JC_FA18F",1500,1750,450],										//F/A-18 F Super Hornet
 	["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
 	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
+	["RHS_C130J",800,0,500],
 	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
 	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
 	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
@@ -297,6 +298,7 @@ support_vehicles = [
 	["rhsusf_weapon_crate",20,20,0],
 	["ACE_Box_Misc",20,20,0],
 	["Box_NATO_Grenades_F",20,20,0],
+	["Box_NATO_Support_F",20,20,0],
 	["ACE_Wheel",10,0,0],
 	["ACE_Track",10,0,0],
 	["B_T_APC_Tracked_01_CRV_F",500,250,350],							//CRV-6e Bobcat

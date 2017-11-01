@@ -275,6 +275,6 @@ while {true} do {
 			_idact_zeus = -1;
 		};
 	};
-
+	
 	uiSleep 1;
 };

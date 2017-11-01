@@ -26,6 +26,7 @@ KP_liberation_ace_crates = [
 	"rhsusf_launcher_crate",
 	"rhsusf_weapon_crate",
 	"Box_NATO_Grenades_F",
+	"Box_NATO_Support_F",
 	"ACE_Box_Misc"
 ];
 
