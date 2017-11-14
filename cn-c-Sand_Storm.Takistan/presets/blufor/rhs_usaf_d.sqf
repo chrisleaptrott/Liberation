@@ -114,6 +114,7 @@ air_vehicles = [
 	["rhsusf_CH53E_USMC_D",300,0,175],									//CH-53E Super Stallion
 	["RHS_AH1Z",750,700,200],
 	["RHS_C130J",800,0,500],
+	["C130J_Cargo",800,0,500],
 	["B_UAV_02_dynamicLoadout_F",400,300,200],							//MQ-4A Greyhawk
 	//["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
 	//["B_UAV_05_F",500,500,200],											//UCAV Sentinel

@@ -161,6 +161,7 @@ air_vehicles = [
 	["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
 	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
 	["RHS_C130J",800,0,500],
+	["C130J_Cargo",800,0,500],
 	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
 	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
 	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
